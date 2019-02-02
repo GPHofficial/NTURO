@@ -19,8 +19,8 @@
     </a>
     <h2>Individual Registration</h2>
   </div>
-  <!-- <form class="needs-validation" action="http://localhost:3000/Register/Individual" method="POST" id="regForm" novalidate> -->
-  <form class="needs-validation" action="https://ntuaquathlon.azurewebsites.net/Register/Individual" method="POST" id="regForm" novalidate>
+  <form class="needs-validation" action="http://localhost:3000/Register/Individual" method="POST" id="regForm" novalidate>
+  <!-- <form class="needs-validation" action="https://ntuaquathlon.azurewebsites.net/Register/Individual" method="POST" id="regForm" novalidate> -->
 <div id="particulars" class="card">
   <div class="card-header">
     <h3>Personal Particulars</h3>
@@ -643,9 +643,21 @@
     <div class="form-group">
       <legend class="col-form-label">Swim timing for 500 meters</legend>
       <div class="form-check">
-        <input class="form-check-input" type="radio" name="swim" id="7Min" value="7" required>
+        <input class="form-check-input" type="radio" name="swim" id="5Min" value="5" required>
+        <label class="form-check-label" for="5Min" >
+          Less than 5 mins
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="swim" id="6Min" value="6">
+        <label class="form-check-label" for="6Min" >
+          5 to 6 minutes
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="swim" id="7Min" value="7">
         <label class="form-check-label" for="7Min" >
-          Less than 7 mins
+          6 to 7 minutes
         </label>
       </div>
       <div class="form-check">
